@@ -19,7 +19,7 @@ default_folder_path = '/Users/raj/Library/CloudStorage/OneDrive-IndianInstituteo
 if use_default_folder:
     folder_path = default_folder_path
 else:
-    folder_path = st.sidebar.text_input("Enter the path of the training_data folder:")
+    folder_path = st.sidebar.text_input("Enter the path of the folder containing .npy file:")
 
 if folder_path:
     # Ensure the directory exists
