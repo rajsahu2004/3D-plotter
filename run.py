@@ -13,7 +13,7 @@ st.sidebar.header("Folder Selection")
 use_default_folder = st.sidebar.checkbox("Use default folder")
 
 # Define the default folder path
-default_folder_path = '3DSpiral.py'
+default_folder_path = 'files'
 
 # Input for folder path
 if use_default_folder:
