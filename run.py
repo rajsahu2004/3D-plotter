@@ -13,7 +13,7 @@ st.sidebar.header("Folder Selection")
 use_default_folder = st.sidebar.checkbox("Use default folder")
 
 # Define the default folder path
-default_folder_path = '/Users/raj/Library/CloudStorage/OneDrive-IndianInstituteofTechnologyIndianSchoolofMinesDhanbad/Documents/Python/ThinkOnward/Seismic Denoising /training_data/42487393'
+default_folder_path = '3DSpiral.py'
 
 # Input for folder path
 if use_default_folder:
